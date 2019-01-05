@@ -542,7 +542,7 @@ if __name__ == '__main__':
     # create session
     si.setupsession()
 
-	# get device id
+    # get device id
     completion_code, rqdata = si.sendipmicmd(netfn=0x06, cmd=0x01)
     print(completion_code, rqdata)
 
@@ -554,22 +554,22 @@ if __name__ == '__main__':
         exit()
 
 
-	si.enter()
-	print(si.get_sol_char(3))
-	si.esc()
-	print( si.get_sol_char(3))
-	si.up()
-	print( si.get_sol_char(3))
-	si.down()
-	print( si.get_sol_char(3))
-	si.backspace()
-	print( si.get_sol_char(3))
-	si.f9()
-	print( si.get_sol_char(3))
-	si.f10()
-	print( si.get_sol_char(3))
-	si.typeword('newpassword')
-	print( si.get_sol_char(3))
+    si.enter()
+    print(si.get_sol_char(3))
+    si.esc()
+    print( si.get_sol_char(3))
+    si.up()
+    print( si.get_sol_char(3))
+    si.down()
+    print( si.get_sol_char(3))
+    si.backspace()
+    print( si.get_sol_char(3))
+    si.f9()
+    print( si.get_sol_char(3))
+    si.f10()
+    print( si.get_sol_char(3))
+    si.typeword('newpassword')
+    print( si.get_sol_char(3))
 	
 
 
