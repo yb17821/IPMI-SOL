@@ -554,7 +554,6 @@ if __name__ == '__main__':
         exit()
 
 
-    
 	si.enter()
 	print(si.get_sol_char(3))
 	si.esc()
